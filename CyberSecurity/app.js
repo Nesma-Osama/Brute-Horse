@@ -1,6 +1,0 @@
-const express=require("express")
-const app=express()
-const vulnerabilityRouters=require("./router/vulnerabilityRouter")
-app.use(express.json())
-app.use("/vulnerability",vulnerabilityRouters)
-app.listen(3000)
