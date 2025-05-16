@@ -23,7 +23,7 @@ function Section({section, watch, register, errors, control}:SectionProps){
     const {id , title , inputs} = section
 
     const checkboxInput:InputInterface = {
-        required: true,
+        required: false,
         type: InputTypes.checkbox,
         data:{
             id: id,
